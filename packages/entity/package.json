@@ -1,0 +1,17 @@
+{
+  "name": "@repo/entity",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./client": "./src/client.ts",
+    "./entities/user": "./src/entities/user.ts",
+    "./entities/post": "./src/entities/post.ts"
+  },
+  "dependencies": {
+    "@repo/db": "workspace:*",
+    "drizzle-orm": "1.0.0-rc.4",
+    "zod": "^4.5.4"
+  }
+}

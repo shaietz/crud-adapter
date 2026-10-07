@@ -1,0 +1,12 @@
+{
+  "name": "@app/web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@repo/entity": "workspace:*"
+  },
+  "devDependencies": {
+    "@app/api": "workspace:*"
+  }
+}

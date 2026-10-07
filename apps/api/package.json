@@ -1,0 +1,17 @@
+{
+  "name": "@app/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/app.ts"
+  },
+  "dependencies": {
+    "@repo/crud-http": "workspace:*",
+    "@repo/crud-repo": "workspace:*",
+    "@repo/db": "workspace:*",
+    "@repo/entity": "workspace:*",
+    "drizzle-orm": "1.0.0-rc.4",
+    "fastify": "^5.12.3"
+  }
+}
